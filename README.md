@@ -2,6 +2,7 @@
 
 ![24 modern desktop gui GIF](https://github.com/KhamisiKibet/Docs-QT-PyQt-PySide-Custom-Widgets/raw/main/images/24-modern-ui.gif)
 
+
 # Creating a PySide6 Project with Custom Widgets and PyInstaller
 
 ## 1. Install Python
@@ -116,3 +117,5 @@ After the build process is complete, the executable will be located in the dist 
 ```bash
 your_project_folder/dist/YourAppName.exe
 ```
+
+*Note*: Remember to copy other required static data files to your exe folder.
