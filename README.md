@@ -2,6 +2,7 @@
 
 ![24 modern desktop gui GIF](https://github.com/KhamisiKibet/Docs-QT-PyQt-PySide-Custom-Widgets/raw/main/images/24-modern-ui.gif)
 
+[Check out the Exe app above](https://www.dropbox.com/scl/fi/i0s1imjm5a1rvs00xdrra/24-Modern-GUI-exe.zip?rlkey=aka3fjexl0krtjq231chdnd6y&st=1fiksoky&dl=0)
 
 # Creating a PySide6 Project with Custom Widgets and PyInstaller
 
