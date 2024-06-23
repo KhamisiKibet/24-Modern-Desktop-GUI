@@ -1,6 +1,6 @@
 [![GitHub](https://img.shields.io/github/license/KhamisiKibet/24-Modern-Desktop-GUI?logo=Github)](https://github.com/KhamisiKibet/24-Modern-Desktop-GUI/blob/master/LICENSE) [![GitHub top language](https://img.shields.io/github/languages/top/KhamisiKibet/24-Modern-Desktop-GUI?logo=github)](https://github.com/KhamisiKibet/24-Modern-Desktop-GUI) [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/KhamisiKibet/24-Modern-Desktop-GUI?logo=github)](https://github.com/KhamisiKibet/24-Modern-Desktop-GUI) [![GitHub issues](https://img.shields.io/github/issues/KhamisiKibet/24-Modern-Desktop-GUI?logo=github)](https://github.com/KhamisiKibet/24-Modern-Desktop-GUI/issues)
 
-![Custom Widgets Art](https://github.com/KhamisiKibet/docs-QT-PyQt-PySide-Custom-Widgets/blob/main/images/custom_widgets_art.png?raw=true)
+![24 modern desktop gui GIF](https://github.com/KhamisiKibet/Docs-QT-PyQt-PySide-Custom-Widgets/raw/main/images/24-modern-ui.gif)
 
 # Creating a PySide6 Project with Custom Widgets and PyInstaller
 
