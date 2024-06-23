@@ -1,3 +1,7 @@
+[![GitHub](https://img.shields.io/github/license/KhamisiKibet/24-Modern-Desktop-GUI?logo=Github)](https://github.com/KhamisiKibet/24-Modern-Desktop-GUI/blob/master/LICENSE) [![GitHub top language](https://img.shields.io/github/languages/top/KhamisiKibet/24-Modern-Desktop-GUI?logo=github)](https://github.com/KhamisiKibet/24-Modern-Desktop-GUI) [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/KhamisiKibet/24-Modern-Desktop-GUI?logo=github)](https://github.com/KhamisiKibet/24-Modern-Desktop-GUI) [![GitHub issues](https://img.shields.io/github/issues/KhamisiKibet/24-Modern-Desktop-GUI?logo=github)](https://github.com/KhamisiKibet/24-Modern-Desktop-GUI/issues)
+
+![Custom Widgets Art](https://github.com/KhamisiKibet/docs-QT-PyQt-PySide-Custom-Widgets/blob/main/images/custom_widgets_art.png?raw=true)
+
 # Creating a PySide6 Project with Custom Widgets and PyInstaller
 
 ## 1. Install Python
@@ -105,4 +109,10 @@ coll = COLLECT(
 Finally, build the executable using the edited spec file:
 ```bash 
 pyinstaller your_spec_file.spec
+```
+
+### Locate the Executable
+After the build process is complete, the executable will be located in the dist folder inside your project directory. The path will be similar to:
+```bash
+your_project_folder/dist/YourAppName.exe
 ```
