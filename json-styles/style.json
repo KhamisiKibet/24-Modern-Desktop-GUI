@@ -1,0 +1,293 @@
+{
+  "QtBinding": "PySide6",
+  "ShowLogs": true,
+  "LiveCompileQss": true,
+  "CheckForMissingicons": true,
+  "QMainWindow": [
+    {
+      "tittle": "24-Modern GUI",
+      "icon": ":/font_awesome_brands/icons/font_awesome/brands/brave-reverse.png",
+      "frameless": true,
+      "transluscentBg": true,
+      "sizeGrip": "sizeGrip",
+      "navigation": [
+        {
+          "minimize": "minimizeBtn",
+          "close": "closeBtn",
+          "moveWindow": "header",
+          "tittleBar": "header",
+          "restore": [
+            {
+            "buttonName": "restoreBtn",
+            "normalIcon": ":/feather/Icons/feather/square.png",
+            "maximizedIcon": ":/feather/Icons/feather/copy.png"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "QSettings": [
+    {
+      "ThemeSettings": [
+        {
+          "CustomTheme": [
+            {
+              "Background-color": "#FFFFFF",
+              "Text-color": "#010000",
+              "Icons-color": "#000000",
+              "Accent-color": "#26bae3",
+              "Theme-name": "LightBlue",
+              "Default-Theme": true
+            },
+            {
+              "Background-color": "#21272a",
+              "Text-color": "#fefefe",
+              "Icons-color": "#fefefe",
+              "Accent-color": "#fba43b",
+              "Theme-name": "DarkYellow",
+              "Default-Theme": false
+            }
+          ]
+        }
+      ],
+      "AppSettings": {
+        "OrginizationName": "24-Modern GUI",
+        "ApplicationName": "24-Modern GUI Company",
+        "OrginizationDormain": "24-Modern GUI.org"
+      }
+    }
+  ],
+  "QPushButtonGroup": [
+	  {
+		"Buttons": [
+		  "homeBtn",
+		  "dataBtn",
+		  "reportsBtn",
+		  "graphsBtn"
+		],
+		"ActiveButton": "homeBtn",
+		"Style": [
+		  {
+			"Active": "QPushButton{background-color: THEME.COLOR_BACKGROUND_2; font-weight: bold; border-top: 2px solid $COLOR_BACKGROUND_3; border-left: 5px solid $COLOR_BACKGROUND_3;border-bottom: 6px solid $COLOR_BACKGROUND_3;}",
+			"NotActive": "QPushButton{background-color: transparent; font-weight: normal; border-top: 2px solid transparent; border-left: 5px solid transparent;border-bottom: 6px solid transparent;}"
+		  }
+		]
+	  },
+	  {
+		"Buttons": [
+		  "settingsBtn",
+		  "infoBtn",
+		  "helpBtn",
+		  "closeCenterMenuBtn"
+		],
+		"ActiveButton": "closeCenterMenuBtn",
+		"Style": [
+		  {
+			"Active": "QPushButton{background-color: THEME.COLOR_ACCENT_1; font-weight: bold; border-top: 6px solid $COLOR_BACKGROUND_3; border-left: 6px solid $COLOR_BACKGROUND_3;border-bottom: 6px solid $COLOR_BACKGROUND_3;}",
+			"NotActive": "QPushButton{background-color: transparent; font-weight: normal; border-top: 6px solid transparent; border-left: 6px solid transparent;border-bottom: 6px solid transparent;}"
+		  }
+		]
+	  },
+	  {
+		"Buttons": [
+		  "notificationBtn",
+		  "moreBtn",
+		  "profileBtn",
+		  "closeRightMenuBtn"
+		],
+		"Style": [
+		  {
+			"Active": "QPushButton{background-color: THEME.COLOR_BACKGROUND_2; font-weight: bold; border-radius: 5px} QPushButton::hover{background-color: THEME.COLOR_ACCENT_1}",
+			"NotActive": "QPushButton{background-color: transparent; font-weight: normal; border-radius: 5px} QPushButton::hover{background-color: THEME.COLOR_ACCENT_1}"
+		  }
+		]
+	  }
+	],
+  "QCustomSlideMenu": [
+	  {
+		"name": "leftMenu",
+		"defaultSize": [
+		  {
+			"width": 40,
+			"height": "parent"
+		  }
+		],
+		"collapsedSize": [
+		  {
+			"width": 40,
+			"height": "parent"
+		  }
+		],
+		"expandedSize": [
+		  {
+			"width": 130,
+			"height": "parent"
+		  }
+		],
+		"toggleButton": [
+		  {
+			"buttonName": "menuBtn",
+			"icons": [
+			  {
+				"whenMenuIsCollapsed": ":/feather/icons/feather/align-justify.png",
+				"whenMenuIsExpanded": ":/feather/icons/feather/arrow-left-circle.png"
+			  }
+			]
+		  }
+		],
+		"menuTransitionAnimation": [
+		  {
+			"animationDuration": 500,
+			"animationEasingCurve": "Linear"
+		  }
+		]
+	  },
+    {
+      "name": "centerMenu",
+      "defaultSize": [
+        {
+        "width": 0,
+        "height": "parent"
+        }
+      ],
+      "collapsedSize": [
+        {
+        "width": 0,
+        "height": "parent"
+        }
+      ],
+      "expandedSize": [
+        {
+        "width": 200,
+        "height": "parent"
+        }
+      ],
+      "menuTransitionAnimation": [
+        {
+        "animationDuration": 500,
+        "animationEasingCurve": "Linear"
+        }
+      ]
+    },
+    {
+      "name": "rightMenu",
+      "defaultSize": [
+        {
+        "width": 0,
+        "height": "parent"
+        }
+      ],
+      "collapsedSize": [
+        {
+        "width": 0,
+        "height": "parent"
+        }
+      ],
+      "expandedSize": [
+        {
+        "width": 200,
+        "height": "parent"
+        }
+      ],
+      "menuTransitionAnimation": [
+        {
+        "animationDuration": 500,
+        "animationEasingCurve": "Linear"
+        }
+      ]
+    }
+  ],
+  "QCustomQStackedWidget": [
+	  {
+		"name": "mainPages",
+		"navigation": [
+		  {
+			"navigationButtons": [
+			  {
+				"homeBtn": "homePage",
+				"dataBtn": "dataAnalysisPage",
+				"reportsBtn": "reportsPage",
+				"graphsBtn": "chartsPage"
+			  }
+			]
+		  }
+		],
+		"transitionAnimation": [
+		  {
+			"fade": [
+			  {
+				"active": true,
+				"duration": 500,
+				"easingCurve": "InSine"
+			  }
+			]
+		  }
+		]
+	  },
+	  {
+		"name": "centerMenuPages",
+		"navigation": [
+		  {
+			"navigationButtons": [
+			  {
+				"settingsBtn": "settingsPage",
+				"infoBtn": "informationPage",
+				"helpBtn": "helpPage"
+			  }
+			]
+		  }
+		],
+    "transitionAnimation": [
+		  {
+			"fade": [
+			  {
+				"active": true,
+				"duration": 500,
+				"easingCurve": "InSine"
+			  }
+			],
+      "slide": [
+			  {
+				"active": true,
+				"duration": 500,
+				"easingCurve": "InSine"
+			  }
+			]
+		  }
+		]
+	  },
+	  {
+		"name": "rightMenuPages",
+		"navigation": [
+		  {
+			"navigationButtons": [
+			  {
+				"notificationBtn": "notificationsPage",
+				"moreBtn": "morePage",
+				"profileBtn": "profilePage"
+			  }
+			]
+		  }
+		],
+    "transitionAnimation": [
+		  {
+			"slide": [
+			  {
+				"active": true,
+				"duration": 500,
+				"easingCurve": "InSine"
+			  }
+			],
+      "fade": [
+			  {
+				"active": true,
+				"duration": 500,
+				"easingCurve": "InSine"
+			  }
+			]
+		  }
+		]
+	  }
+	]
+}
