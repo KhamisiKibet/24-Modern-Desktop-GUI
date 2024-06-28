@@ -6,6 +6,8 @@
 
 # Creating a PySide6 Project with Custom Widgets and PyInstaller
 
+[Watch youtube tutorial](https://youtu.be/JK-B-CT34EU?si=l6wbCzPnmxCdLkir)
+
 ## 1. Install Python
 First, ensure that you have Python installed on your system. You can download Python from [python.org](https://www.python.org/downloads/).
 
